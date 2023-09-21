@@ -4,10 +4,12 @@
     margin: 0;
 }
 
+/* Modifies the background color of the page */
 body {
     background-color: #d9dcd6;
 }
 
+/* sets the style settings for the header element and it's children  */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +17,18 @@ body {
     color: #ffffff;
 }
 
+/* modifies the font size of the header title  */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* adjusts the color of the letters "seo" in the header title  */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* the next four elements style the navigation menu within the header  */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -46,10 +51,12 @@ a {
     text-decoration: none;
 }
 
+/* sets the font size for the "paragraph" elements within the page  */
 p {
     font-size: 16px;
 }
 
+/* identifies and styles the background image at the top of the page  */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,23 +66,26 @@ p {
     background-position: center;
 }
 
+/* sets a style for the float-left element  */
 .float-left {
     float:left;
     margin-right: 25px;
 }
 
-
+/* sets a style for the float-right element  */
 .float-right {
     float: right;
     margin-right: 25px;
 }
 
+/* sets the overarching style for the the content section within the body element  */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* sets the overarching style for the benefits section within the body element  */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -87,6 +97,7 @@ p {
     background-color: #2589bd;
 }
 
+/* styles the text of the individual elements within the 'benefits' parent element  */
 .benefit-lead, 
 .benefit-brand, 
 .benefit-cost {
@@ -94,18 +105,20 @@ p {
     color: #ffffff;
 }
 
+/* styles the headers within the 'benefits' element  */
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-
+/* formats the image elements within the 'benefits' element  */
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* formats the individual sections within the 'content' element  */
 .search-engine-optimization, 
 .online-reputation-management, 
 .social-media-marketing {
@@ -117,16 +130,18 @@ p {
     color: #ffffff;
 }
 
+/* sets max hight for images within the 'content' element  */
 .content img {
     max-height: 200px;
 }
 
+/* formats the h2 elements within the 'content' element  */
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-
+/* the next two sections stylize the 'footer' element of the page  */
 .footer {
     padding: 30px;
     clear: both;
